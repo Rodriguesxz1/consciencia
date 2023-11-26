@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:wght@400;500;600;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 142px;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid #D3D7DF;
+}
+
+header > ul {
+    display: flex;
+    line-height: 160px;
+    list-style: none;
+    position: absolute;
+    gap: 20px;
+    left: 10%;
+}
+
+li {
+    font-size: 32px;
+    margin-top: -15px;
+}
+
+header > .logo {
+    position: absolute;
+    width: 123px;
+    height: 126px;
+    background-image: url(/img/image\ 4.png) ;
+    left: 80%;
+}
+
+#one {
+    height: 860px;
+    background-image: url(/img/pexels-carlos-de-jesus-5653485.jpg);
+    background-size: contain;
+    background-position-x: -550px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.text {
+    color: #D3D7DF;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+
+.text> h1 {
+    font-size: 96px;
+}
+
+.text > p {
+    font-size: 35px;
+    margin-top: 10%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+#two {
+    height: 860px;
+    background-image: url(/img/pexels-lalesh-aldarwish-147635.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top: 4px solid white;
+}
+
+.text2 {
+    color: #D3D7DF;
+    margin-left: 10%; 
+}
+
+.text2 > h1 {
+    font-size: 96px;
+    
+}
+
+.text2 > p {
+    font-size: 40px;
+    margin-top: 10%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+#three {
+    height: 950px;
+    background-image: url(/img/pexels-matej-1034426.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top: 4px solid white;
+    background-position: left;
+    background-position-x: -150px;
+
+}
+
+.text3 {
+    color: #D3D7DF;
+    margin-left: 10%;
+}
+
+.text3 > h1 {
+    font-size: 96px;
+    
+}
+
+.text3 > p {
+    font-size: 38px;
+    margin-top: 10%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+aside {
+    color: white;
+    width: 100%;
+    height: 280px;
+    background-image:url(/img/pexels-nappy-1058958.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    padding: 30px;
+    border-top: 4px solid white;
+}
+
+aside > h1 {
+    font-size: 80px;
+    height: 150px;
+    width: 700px;
+    border: 2px solid white;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%);
+    color: black;
+    border-radius: 81px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#four {
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 5%;
+    
+}
+
+#four > div {
+    margin-left: 5%; /* Espaçamento responsivo entre as divs */
+}
+
+#four > #div1 {
+    border-radius: 90px;
+    width: 453px;
+    height: 688px;
+    background-image: url(/img/pexels-joseph-aduratomi-12918549.jpg);
+    background-size: cover;
+    margin-left: 120px;
+}
+
+#four > #div2 {
+    border-radius: 90px;
+    width: 453px;
+    height: 688px;
+    background-image: url(/img/pexels-artssy-11489862.jpg);
+    background-size: cover;
+    margin-left: 50px;
+}
+
+#four > #div3 {
+    width: 443px;
+    height: 688px;
+    border-radius: 90px;
+    background-image: url(/img/pexels-lia-castro-12340460.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
+
+.sectiontext {
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    margin-top: -7%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    width: 100%;
+    background: #000;
+    height: 150px;
+    color: white;
+    margin-top: 5%;
+}
+
+footer > h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+li:hover {
+    color: #D3D7DF;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width: 1200px) {
+    .text {
+        top: 20%;
+        left: 35%;
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+    .text {
+        top: 30%;
+        left: 45%;
+    }
+    
+}
